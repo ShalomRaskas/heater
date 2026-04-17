@@ -1,39 +1,24 @@
-import { Flame } from "lucide-react";
+import Image from "next/image";
 import { BRAND } from "@/lib/constants";
-import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-6">
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(249,115,22,0.12),_transparent_60%)]"
-      />
-      <div className="relative flex flex-col items-center text-center">
-        <div className="flex items-center gap-3">
-          <h1
-            className={cn(
-              "text-5xl font-bold uppercase tracking-[0.2em] sm:text-6xl",
-            )}
-          >
-            {BRAND.name}
-          </h1>
-          <Flame
-            className="h-8 w-8 text-orange-500 sm:h-10 sm:w-10"
-            fill="currentColor"
-            strokeWidth={1.5}
-          />
-        </div>
-        <p className="mt-6 max-w-md text-base text-white/60 sm:text-lg">
+    <main className="min-h-screen flex flex-col items-center justify-center px-6 bg-[#0a0a0f]">
+      <div className="flex flex-col items-center text-center">
+        <Image
+          src="/logo.png"
+          alt="Heater"
+          width={144}
+          height={80}
+          priority
+          className="h-16 sm:h-20 w-auto"
+        />
+        <p className="mt-6 text-base sm:text-lg text-white/60 max-w-md">
           {BRAND.tagline}
         </p>
-        <span
-          className={cn(
-            "mt-10 text-xs font-medium uppercase tracking-[0.3em] text-orange-500",
-          )}
-        >
-          Coming soon
-        </span>
+        <p className="mt-8 text-xs tracking-[0.25em] uppercase text-orange-500 font-medium">
+          Coming Soon
+        </p>
       </div>
     </main>
   );
