@@ -11,8 +11,10 @@ export default function Home() {
         <Image
           src="/logo.png"
           alt="Heater"
-          width={400}
-          height={220}
+        width={677}
+          
+      
+        height={369}
           priority
           className="h-40 sm:h-56 w-auto"
         />
