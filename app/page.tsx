@@ -16,7 +16,7 @@ export default function Home() {
       
         height={369}
           priority
-          className="h-40 sm:h-56 w-auto"
+          className="h-56 sm:h-72 md:h-80 w-auto"
         />
         <p className="mt-6 text-base sm:text-lg text-white/60 max-w-md">
           {BRAND.tagline}
