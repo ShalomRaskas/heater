@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BRAND } from "@/lib/constants";
+import WaitlistForm from "@/components/WaitlistForm";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <p className="mt-8 text-xs tracking-[0.25em] uppercase text-orange-500 font-medium">
           Coming Soon
         </p>
+        <WaitlistForm />
       </div>
     </main>
   );
