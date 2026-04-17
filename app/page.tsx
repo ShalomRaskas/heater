@@ -32,21 +32,21 @@ export default function Home() {
       {/* What's coming */}
       <section className="mt-16 sm:mt-24 w-full max-w-5xl">
         <h2 className="text-center text-xs tracking-[0.25em] uppercase text-[#D32F2F] font-medium mb-10">
-          What's coming
+          What&apos;s coming
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="rounded-xl bg-white/[0.03] border border-white/[0.08] p-6 hover:bg-white/[0.05] transition">
             <Sparkles className="w-5 h-5 mb-4" style={{ color: "#D32F2F" }} />
             <h3 className="text-base font-bold text-white mb-2">Albert</h3>
             <p className="text-sm text-white/60 leading-relaxed">
-              An AI scout watching every game, every prospect, every pitch. Ask him anything — he's read everything.
+              An AI scout watching every game, every prospect, every pitch. Ask him anything — he&apos;s read everything.
             </p>
           </div>
           <div className="rounded-xl bg-white/[0.03] border border-white/[0.08] p-6 hover:bg-white/[0.05] transition">
             <Flame className="w-5 h-5 mb-4" style={{ color: "#D32F2F" }} />
             <h3 className="text-base font-bold text-white mb-2">Heater Boards</h3>
             <p className="text-sm text-white/60 leading-relaxed">
-              See who's heating up across every category in real time. Before the rest of the internet catches on.
+              See who&apos;s heating up across every category in real time. Before the rest of the internet catches on.
             </p>
           </div>
           <div className="rounded-xl bg-white/[0.03] border border-white/[0.08] p-6 hover:bg-white/[0.05] transition">
