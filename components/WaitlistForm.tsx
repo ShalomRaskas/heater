@@ -13,7 +13,7 @@ function SubmitButton() {
       disabled={pending}
       className="
         px-5 py-3 rounded-lg
-        bg-orange-500 hover:bg-orange-400
+        bg-[#C62828] hover:bg-[#D32F2F]
         text-white font-semibold text-sm
         transition-colors duration-200
         disabled:opacity-50 disabled:cursor-not-allowed
@@ -31,7 +31,7 @@ export default function WaitlistForm() {
   if (state.success) {
     return (
       <div className="mt-10 flex flex-col items-center gap-2">
-        <p className="text-orange-400 font-semibold text-sm tracking-wide">
+        <p className="text-[#E65100] font-semibold text-sm tracking-wide">
           🔥 You&apos;re on the list.
         </p>
         <p className="text-white/40 text-xs">
@@ -53,7 +53,7 @@ export default function WaitlistForm() {
             flex-1 min-w-0 px-4 py-3 rounded-lg
             bg-white/5 border border-white/10
             text-white placeholder-white/30 text-sm
-            focus:outline-none focus:border-orange-500/60
+            focus:outline-none focus:border-[#C62828]/60
             transition-colors duration-200
           "
         />
